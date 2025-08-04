@@ -1,7 +1,7 @@
 # Meu Portfólio - Sandro Muniz
 
 ## 📄 Descrição
-Este é o repositório do meu website de portfólio profissional, desenvolvido para apresentar minhas competências, serviços e projetos como Desenvolvedor Web Freelancer.
+Este é o repositório do meu website de portfólio profissional, desenvolvido para apresentar minhas competências, serviços e projetos como Desenvolvedor Web.
 
 ## ✨ Funcionalidades
 - Design moderno, responsivo e minimalista.
