@@ -6,6 +6,18 @@
     <title>Sandro Muniz - Desenvolvedor Web</title>
     <meta name="description" content="Desenvolvedor Web especialista na criação de sites institucionais e landing pages de alta performance. Transformando ideias em experiências digitais.">
     
+    <meta property="og:title" content="Sandro Muniz - Desenvolvedor Web">
+    <meta property="og:description" content="Desenvolvedor Web especialista na criação de sites institucionais e landing pages de alta performance. Transformando ideias em experiências digitais.">
+    <meta property="og:url" content="https://sandrodevweb.netlify.app/">
+    <meta property="og:image" content="https://i.imgur.com/s1EsAuU.jpeg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sandro Muniz - Desenvolvedor Web">
+    <meta name="twitter:description" content="Desenvolvedor Web especialista na criação de sites institucionais e landing pages de alta performance. Transformando ideias em experiências digitais.">
+    <meta name="twitter:image" content="https://i.imgur.com/s1EsAuU.jpeg">
+    
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,18 +25,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY9F6YLVQ9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZY9F6YLVQ9');
-</script>
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY9F6YLVQ9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZY9F6YLVQ9');
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sandro Muniz",
+      "jobTitle": "Desenvolvedor Web",
+      "url": "https://sandrodevweb.netlify.app/",
+      "image": "https://i.imgur.com/s1EsAuU.jpeg",
+      "sameAs": [
+        "https://www.linkedin.com/in/sandro-muniz-a8852131/",
+        "https://github.com/sandromuniz89"
+      ],
+      "description": "Desenvolvedor Web especialista na criação de sites institucionais e landing pages de alta performance. Transformando ideias em experiências digitais.",
+      "knowsAbout": ["HTML5", "CSS3", "JavaScript", "Desenvolvimento Web", "Landing Pages", "SEO", "Sites Responsivos"]
+    }
+    </script>
 </head>
 <body>
 
@@ -37,6 +65,12 @@
                 <li class="nav-item"><a href="#portfolio" class="nav-link">Portfólio</a></li>
                 <li class="nav-item"><a href="#contato" class="nav-link cta-button">Contato</a></li>
             </ul>
+
+            <button class="theme-toggle-button" aria-label="Alternar tema" title="Alternar tema">
+                <i class="fas fa-sun theme-icon-sun"></i>
+                <i class="fas fa-moon theme-icon-moon"></i>
+            </button>
+
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -60,7 +94,7 @@
             </div>
         </section>
 
-        <section id="sobre" class="content-section">
+        <section id="sobre" class="content-section" data-aos="fade-up">
             <div class="container about-container">
                 <div class="about-text">
                     <h2 class="section-title">Sobre Mim</h2>
@@ -68,26 +102,25 @@
                     <p>Olá! Sou Sandro, um desenvolvedor web apaixonado por criar experiências digitais que geram valor. Para mim, um site é muito mais do que código e imagens; é a principal vitrine de um negócio e uma poderosa ferramenta para atrair e converter clientes.</p>
                     <p>Atuo de forma consultiva, buscando entender profundamente seus objetivos para entregar não apenas um site, mas a solução certa para o seu momento. Minha especialidade é a criação de sites institucionais e landing pages com design limpo, moderno e foco total na usabilidade.</p>
                 </div>
-                <div class="about-image-panel">
-                    </div>
+                <div class="about-image-panel"></div>
             </div>
         </section>
 
-        <section id="servicos" class="content-section bg-light">
+        <section id="servicos" class="content-section bg-light" data-aos="fade-up">
             <div class="container">
                 <h2 class="section-title text-center">O que eu faço</h2>
                 <div class="services-grid">
-                    <div class="service-card">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                         <i class="fas fa-code"></i>
                         <h3>Sites Personalizados</h3>
                         <p>Desenvolvimento de sites institucionais do zero, com design exclusivo que reflete a identidade da sua marca e otimizado para todos os dispositivos.</p>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                         <i class="fas fa-rocket"></i>
                         <h3>Landing Pages</h3>
                         <p>Criação de páginas de aterrissagem focadas em alta conversão, ideais para lançamento de produtos, serviços ou campanhas de marketing.</p>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                         <i class="fas fa-headset"></i>
                         <h3>Consultoria e Manutenção</h3>
                         <p>Suporte para colocar seu site no ar (domínio e hospedagem) e planos de manutenção para garantir segurança e performance contínuas.</p>
@@ -96,13 +129,13 @@
             </div>
         </section>
 
-        <section id="portfolio" class="content-section">
+        <section id="portfolio" class="content-section" data-aos="fade-up">
             <div class="container">
                 <h2 class="section-title text-center">Meu Portfólio</h2>
                 <div class="portfolio-grid">
-                    <div class="portfolio-card">
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="portfolio-image-container">
-                           <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Projeto Confidere Gestão Urbana" class="portfolio-image">
+                           <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Projeto Confidere Gestão Urbana" class="portfolio-image" loading="lazy" width="400" height="250">
                         </div>
                         <div class="portfolio-info">
                             <h3 class="portfolio-title">Confidere Gestão Urbana</h3>
@@ -116,9 +149,27 @@
                             <a href="https://projetoconfidere.netlify.app/" target="_blank" class="portfolio-link">Ver Projeto ao Vivo <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-image-container">
+                            <img src="https://i.imgur.com/79u6vR9.jpeg" alt="Projeto Indhira - Advocacia" class="portfolio-image" loading="lazy" width="400" height="250">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Propriedade Intelectual</h3>
+                            <p class="portfolio-description">Website informativo focado em Propriedade Intelectual, explicando conceitos como direito autoral, marcas e patentes para um público em geral.</p>
+                            <div class="portfolio-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsivo</span>
+                            </div>
+                            <a href="https://projetoindhira.netlify.app/" target="_blank" class="portfolio-link">Ver Projeto ao Vivo <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="contato" class="content-section bg-light">
+        <section id="contato" class="content-section bg-light" data-aos="fade-up">
             <div class="container text-center">
                 <h2 class="section-title">Vamos construir algo incrível juntos?</h2>
                 <p class="subtitle">Estou disponível para novos projetos e parcerias. Entre em contato e vamos transformar sua ideia em realidade.</p>
@@ -126,7 +177,8 @@
                     <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
                 </a>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/sandro-muniz-a8852131/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/sandro-muniz-a8852131/" title="LinkedIn" aria-label="Acessar meu perfil no LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sandromuniz89" title="GitHub" aria-label="Acessar meus projetos no GitHub"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
@@ -138,10 +190,11 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Sandro Muniz. Todos os direitos reservados.</p>
+            <p>&copy; <span id="current-year"></span> Sandro Muniz. Todos os direitos reservados.</p>
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
