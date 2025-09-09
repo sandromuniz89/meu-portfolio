@@ -24,4 +24,4 @@ Este é o repositório do meu website de portfólio profissional, desenvolvido p
 
 🚀 **Visualização**
 
-Você pode ver o site no ar através deste link: [https://sandromuniz.netlify.app/](https://sandromuniz.netlify.app/)
+Você pode ver o site no ar através deste link: [[https://sandrodevweb.netlify.app/](https://sandrodevweb.netlify.app/)]
